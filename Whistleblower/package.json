@@ -1,0 +1,29 @@
+{
+  "name": "test-voice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsc && nodemon build/index.js",
+    "ngrok": "ngrok http 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.14.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.0",
+    "typescript": "^4.8.4"
+  }
+}
